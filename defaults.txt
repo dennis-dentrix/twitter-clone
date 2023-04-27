@@ -1,0 +1,12 @@
+blue - 	#1d9bf0
+white - #f7f9f9	(247,249,249)
+light-gray -  #eff3f4	(239,243,244)
+dark-gray - #536471	(83,100,113)
+black - #0f1419
+
+
+blue ---- #1DA1F2
+black ----- #14171A
+dark grey ---- #657786
+light gray ---- #AAB8C2
+extra light gray ---- #E1E8ED

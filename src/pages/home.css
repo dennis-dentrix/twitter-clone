@@ -1,0 +1,33 @@
+.center-header {
+  border-bottom: 1px solid #e1e8ed;
+}
+.user-interactions {
+  padding: 2.5rem 0 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.interaction-link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #14171a;
+  padding-bottom: 1.7rem;
+}
+.active {
+  font-weight: 600;
+  border-bottom: 2px solid #1da1f2;
+}
+
+@media screen and (max-width: 600px) {
+  .page-title {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .center {
+    width: 100%;
+    border-right: none;
+  }
+}
