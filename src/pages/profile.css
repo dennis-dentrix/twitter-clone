@@ -4,9 +4,11 @@
   width: 100%;
   gap: 2rem;
 }
+
 .img {
-  width: 100%;
-  height: 50%;
+  max-width: 100%;
+  /* height: auto; */
+  object-fit: cover;
   border-radius: 3px;
   background: no-repeat #e1e8ed;
   border: 1px solid #e1e8ed;
@@ -15,4 +17,86 @@
   border-radius: 50%;
   height: 8rem;
   width: 8rem;
+}
+.profile-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit-btn {
+  text-decoration: none;
+  color: #14171a;
+  font-size: 1.9rem;
+  font-weight: 600;
+  border: 1px solid #aab8c2;
+  border-radius: 3rem;
+  padding: 1.3rem 1.8rem;
+}
+
+.user-details {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.user-details_more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.user-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.user-pair Link {
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+.user-location,
+.user-join {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.9rem;
+}
+.followers {
+  text-decoration: none;
+  color: #14171a;
+}
+.followers span {
+  font-weight: 600;
+}
+.followers:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+.user-cta {
+  padding: 2rem 3rem 1.7rem;
+  border-bottom: 1px solid #aab8c2;
+}
+.user-cta_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.user-cta_item {
+  list-style: none;
+}
+.user-cta_link {
+  text-decoration: none;
+  color: #14171a;
+  font-size: 1.8rem;
+  padding: 1.7rem 1rem;
+  border-radius: 4px;
+}
+
+.user-cta_link:hover {
+  background-color: #aab8c2;
 }

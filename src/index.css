@@ -9,4 +9,8 @@ html {
 body {
   box-sizing: inherit;
   background-color: #f7f9f9;
+  position: absolute;
+  font-family: "Crimson Text", serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
